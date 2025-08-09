@@ -40,7 +40,7 @@ const InstructionsScreen: React.FC<InstructionsScreenProps> = ({ onContinue }) =
         transition={{ delay: 0.1, duration: 0.3 }}
         className="w-full max-w-4xl p-8 text-white font-mono flex flex-col items-center relative z-10 bg-gradient-radial from-white/30 to-transparent backdrop-blur-md bg-opacity-30 rounded-lg"
       >
-        <p className="text-xl mb-8 text-center text-gray-300">Welcome!</p>
+        <p className="text-xl mb-8 text-center text-gray-300">Welcome to OYA!</p>
 
         <motion.div
           initial={{ y: 20, opacity: 0 }}
