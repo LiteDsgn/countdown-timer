@@ -1,0 +1,27 @@
+// components/animated-grid.tsx
+'use client';
+
+// components/timer-display.tsx
+'use client';
+
+// components/format-selector.tsx
+'use client';
+
+// components/preset-buttons.tsx
+'use client';
+
+// components/ControlButtons.tsx
+import { Minus, Plus, Play, Pause } from 'lucide-react';
+
+const ControlButtons = () => {
+  return (
+    <div>
+      <Minus className="h-6 w-6 sm:h-8 sm:w-8" />
+      <Plus className="h-6 w-6 sm:h-8 sm:w-8" />
+      <Play className="h-6 w-6 sm:h-8 sm:w-8" />
+      <Pause className="h-6 w-6 sm:h-8 sm:w-8" />
+    </div>
+  );
+};
+
+export default ControlButtons;
