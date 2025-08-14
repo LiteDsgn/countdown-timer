@@ -8,7 +8,7 @@ interface FormatSelectorProps {
 
 const FormatSelector: React.FC<FormatSelectorProps> = ({ timeFormat, onFormatChange, formatPresets }) => {
   return (
-    <div className="flex items-center space-x-2">
+    <div className="flex items-center space-x-2 relative z-20">
       <span className="text-xs font-mono text-white/50">FORMAT:</span>
       <div className="flex space-x-1">
         {["HH:MM:SS", "MM:SS"].map((format) => (

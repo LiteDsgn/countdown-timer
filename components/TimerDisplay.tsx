@@ -48,8 +48,7 @@ const TimerDisplay: React.FC<TimerDisplayProps> = ({
             setIsEditing(false)
           }
         }}
-        className={`w-full bg-transparent text-center font-mono text-[14rem] leading-none font-semibold
-                   focus:outline-none placeholder-white/20 ${timerColor}`}
+        className={`w-full bg-transparent text-center font-mono leading-none font-semibold focus:outline-none placeholder-white/20 ${timerColor} text-[6rem] sm:text-[8rem] md:text-[10rem] lg:text-[14rem]`}
         placeholder={timeFormat === "SS" ? "00" : timeFormat === "MM:SS" ? "00:00" : "00:00:00"}
         readOnly={showTimeUp || isPomodoroMode}
       />
