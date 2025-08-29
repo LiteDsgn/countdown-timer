@@ -16,7 +16,7 @@ const TimerFooter: React.FC<TimerFooterProps> = ({ isSmallScreen, onOpenInstruct
       transition={{ delay: 0.8, duration: 0.5 }}
       className="p-4 border-t border-white/10 text-center font-mono text-white/50 relative z-10"
     >
-      <p className="text-sm text-gray-400">&copy; 2025 @ENNRI_ & v0 ❤️</p>
+      <p className="text-sm text-gray-400">&copy; 2025 <a href="https://x.com/ennri_" target="_blank" rel="noopener noreferrer">@ENNRI_</a> & v0 ❤️</p>
       <div className="text-xs mt-2">
         {isSmallScreen ? (
           <button onClick={onOpenInstructions} className="underline text-white/70 hover:text-white transition-colors">
